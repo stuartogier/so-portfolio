@@ -1,0 +1,145 @@
+/*
+ * ============================================================
+ *  GLOBAL.CSS — Design Tokens
+ *  Edit this file to restyle the entire site.
+ *  All values flow into every component via style.css.
+ * ============================================================
+ */
+
+:root {
+  /* ── Colour palette ──────────────────────────────────────── */
+  --colour-bg:              #000000;
+  --colour-surface:         #111111;
+  --colour-surface-hover:   #1a1a1a;
+  --colour-border:          #222222;
+  --colour-border-light:    #333333;
+
+  --colour-text:            #ffffff;
+  --colour-text-muted:      #999999;
+  --colour-text-inverse:    #000000;
+
+  --colour-accent:          #ffffff;
+  --colour-accent-hover:    #dddddd;
+
+  --colour-banner-bg:       #111111;
+  --colour-banner-text:     #ffffff;
+
+  --colour-nav-bg:          #000000;
+  --colour-nav-text:        #ffffff;
+  --colour-nav-text-active: #ffffff;
+  --colour-nav-border:      #222222;
+
+  --colour-footer-bg:       #000000;
+  --colour-footer-text:     #666666;
+  --colour-footer-border:   #222222;
+
+  --colour-input-bg:        #111111;
+  --colour-input-border:    #333333;
+  --colour-input-focus:     #ffffff;
+  --colour-error:           #d4351c;
+
+  --colour-tag-bg:          #1a1a1a;
+  --colour-tag-text:        #999999;
+
+  /* ── Typography ──────────────────────────────────────────── */
+  --font-family-body:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-mono:    'JetBrains Mono', 'Courier New', monospace;
+
+  --text-xs:   0.6875rem;
+  --text-sm:   0.75rem;
+  --text-base: 0.875rem;
+  --text-md:   1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.25rem;
+  --text-2xl:  1.5rem;
+  --text-3xl:  2rem;
+  --text-4xl:  2.5rem;
+  --text-5xl:  3.5rem;
+
+  --font-weight-normal:   400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+  --font-weight-bold:     700;
+
+  --line-height-tight:   1.1;
+  --line-height-snug:    1.3;
+  --line-height-normal:  1.6;
+  --line-height-relaxed: 1.75;
+
+  --letter-spacing-tight:  -0.03em;
+  --letter-spacing-normal:  0;
+  --letter-spacing-wide:    0.08em;
+  --letter-spacing-wider:   0.12em;
+
+  /* ── Spacing ─────────────────────────────────────────────── */
+  --space-1:  0.25rem;
+  --space-2:  0.5rem;
+  --space-3:  0.75rem;
+  --space-4:  1rem;
+  --space-5:  1.25rem;
+  --space-6:  1.5rem;
+  --space-8:  2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+
+  /* ── Layout ──────────────────────────────────────────────── */
+  --max-width:       1200px;
+  --max-width-prose: 680px;
+  --gutter:          1.5rem;
+  --gutter-lg:       3rem;
+
+  --nav-height:    56px;
+  --banner-height: 44px;
+
+  /* ── Borders & Radii ─────────────────────────────────────── */
+  --radius-sm:   2px;
+  --radius-md:   4px;
+  --radius-lg:   8px;
+  --radius-full: 9999px;
+  --border-width: 1px;
+
+  /* ── Shadows ─────────────────────────────────────────────── */
+  --shadow-sm:  0 1px 3px rgba(0,0,0,0.5);
+  --shadow-md:  0 4px 16px rgba(0,0,0,0.6);
+  --shadow-lg:  0 8px 32px rgba(0,0,0,0.7);
+
+  /* ── Transitions ─────────────────────────────────────────── */
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow:   0.4s ease;
+
+  /* ── Sections ────────────────────────────────────────────── */
+  --section-padding-y: var(--space-20);
+  --section-gap:       var(--space-16);
+
+  /* ── Hero ────────────────────────────────────────────────── */
+  --hero-title-size: clamp(2rem, 5vw, var(--text-5xl));
+
+  /* ── Cards ───────────────────────────────────────────────── */
+  --card-gap:          var(--space-4);
+  --card-aspect-ratio: 16 / 10;
+  --card-radius:       var(--radius-sm);
+
+  /* ── Carousel ────────────────────────────────────────────── */
+  --carousel-gap:      var(--space-4);
+  --carousel-btn-size: 2.5rem;
+
+  /* ── Form ────────────────────────────────────────────────── */
+  --input-padding-x:  var(--space-4);
+  --input-padding-y:  var(--space-3);
+  --input-radius:     var(--radius-md);
+  --input-min-height: 3rem;
+
+  /* ── Testimonials ────────────────────────────────────────── */
+  --testimonial-border-color: #333333;
+  --testimonial-gap:          var(--space-8);
+
+  /* ── Tags ────────────────────────────────────────────────── */
+  --tag-padding:   var(--space-1) var(--space-3);
+  --tag-radius:    var(--radius-full);
+  --tag-font-size: var(--text-xs);
+}
