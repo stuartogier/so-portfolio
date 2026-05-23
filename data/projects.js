@@ -147,8 +147,7 @@ export const projects = [
         body: `DfE Sign-in was a unified sign-in service to replace 40 disparate DfE service logins. The issues around this were that each service had different security needs, leading to extensive research and onboarding flows.`,
         images: [
           { url: '/images/dfe6.webp', alt: 'DfE Sign-in sitemap' },
-          { url: '/images/dfe7.webp', alt: 'DfE Sign-in user flows' },
-          { url: '/images/dfe8.webp', alt: 'DfE Sign-in wireframes' },
+          { url: '/images/dfe7.webp', alt: 'DfE Sign-in wireframes' },
         ],
       },
     ],
