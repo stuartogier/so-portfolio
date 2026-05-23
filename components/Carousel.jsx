@@ -67,8 +67,8 @@ export default function Carousel({ projects = [] }) {
               className="carouselSlide"
             >
               <div className="carouselImage">
-                {p.image ? (
-                  <Image src={p.image} alt={p.imageAlt || p.title} fill style={{ objectFit: 'cover' }} />
+                {p.heroImage ? (
+                  <Image src={p.heroImage} alt={p.heroImageAlt || p.title} fill style={{ objectFit: 'cover' }} />
                 ) : (
                   <div className="carouselImagePlaceholder">Project image</div>
                 )}

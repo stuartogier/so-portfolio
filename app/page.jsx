@@ -1,47 +1,14 @@
 import Link     from 'next/link';
 import Carousel from '@/components/Carousel';
 import CtaStrip from '@/components/CtaStrip';
+import { projects } from '@/data/projects';
 
 export const metadata = {
-  title: 'UX Designer - YOUR NAME',
+  title: 'UX Designer - Stuart Ogier',
   description: 'Digital perfectionist with 21 years of experience designing and developing high-quality digital services.',
 };
 
-/* ─ Edit this array to populate the home carousel ─ */
-const featuredProjects = [
-  {
-    slug: 'project-one',
-    title: 'Project One',
-    subtitle: 'A short description of what this project involved',
-    // image: '/images/project-one.jpg',
-    // imageAlt: 'Description of the image',
-    tags: ['Interaction Design', 'UX', 'User Research'],
-  },
-  {
-    slug: 'project-two',
-    title: 'Project Two',
-    subtitle: 'A short description of what this project involved',
-    tags: ['UX', 'Design System'],
-  },
-  {
-    slug: 'project-three',
-    title: 'Project Three',
-    subtitle: 'A short description of what this project involved',
-    tags: ['Branding', 'Development'],
-  },
-  {
-    slug: 'project-four',
-    title: 'Project Four',
-    subtitle: 'A short description of what this project involved',
-    tags: ['Prototyping', 'Accessibility'],
-  },
-  {
-    slug: 'project-five',
-    title: 'Project Five',
-    subtitle: 'A short description of what this project involved',
-    tags: ['UX', 'CMS'],
-  },
-];
+const featuredProjects = projects.slice(0, 5);
 
 /* ─ Edit this list of clients ─ */
 const clients = [
@@ -56,17 +23,13 @@ export default function Home() {
       {/* Hero */}
       <section className="hero">
         <div className="container">
-          <p className="heroEyebrow">UX Designer &amp; Frontend Developer</p>
-          <h1 className="heroTitle">
-            Hi, I&apos;m YOUR NAME, a User Experience Designer and Frontend Developer
-          </h1>
-          <p className="heroBody">
-            Digital perfectionist with 21 years of experience designing and developing high-quality
-            digital services for government bodies and leading digital agencies. NN/g UX Certified,
-            specialising in interaction design with a focus on creating intuitive and effective
-            user experiences.
-          </p>
-          <div className="heroActions">
+          <p className="heroEyebrow">UX Designer, user research &amp; visual design</p>
+<h1 className="heroTitle">
+  Hi, I'm Stuart Ogier. I design digital products that put people first.
+</h1>
+<p className="heroBody">
+  Skilled across UX design, user research and visual design, I've helped governmental bodies, financial institutions and consumer brands build services that are intuitive, accessible and useful.
+</p>          <div className="heroActions">
             <Link href="/work"    className="btn btn-primary">View my work</Link>
             <Link href="/contact" className="btn btn-outline">Get in touch</Link>
           </div>
@@ -87,7 +50,7 @@ export default function Home() {
       {/* Clients */}
       <section className="clientsSection" aria-label="Clients">
         <div className="container">
-          <h2 className="clientsTitle">Partnering with exceptional clients since 2008</h2>
+          <h2 className="clientsTitle">Partnering with exceptional clients</h2>
           <ul className="clientsList">
             {clients.map(c => <li key={c}>{c}</li>)}
           </ul>
@@ -105,20 +68,13 @@ export default function Home() {
             </p>
           </div>
 
-          <ul className="servicesTabs">
-            <li><Link href="/services#design"      className="servicesTab">Design</Link></li>
-            <li><Link href="/services#branding"    className="servicesTab">Branding</Link></li>
-            <li><Link href="/services#development" className="servicesTab">Development</Link></li>
-            <li><Link href="/services#photography" className="servicesTab">Photography</Link></li>
-          </ul>
 
           <div className="servicesGrid">
             {[
-              { n: '01', title: 'Design',      body: 'Seamless, user-centric interfaces that captivate your audience from start to finish.' },
-              { n: '02', title: 'Branding',    body: 'Compelling brand identities that build trust, enhance recognition, and set you apart.' },
-              { n: '03', title: 'Development', body: 'Accessible, inclusive digital products built to the highest web standards.' },
-              { n: '04', title: 'Photography', body: 'High-quality images that resonate with your brand identity and leave a lasting impression.' },
-            ].map(({ n, title, body }) => (
+{ n: '01', title: 'UX Design', body: 'Designing seamless, user-centric interfaces that make complex interactions feel simple and intuitive.' },
+{ n: '02', title: 'User Research', body: 'Uncovering what users actually need through interviews, usability testing, and ethnographic research — then turning those insights into design decisions.' },
+{ n: '03', title: 'Visual Design', body: 'Crafting cohesive visual identities, UI systems, and brand experiences that are both beautiful and functional.' },
+{ n: '04', title: 'Design Leadership', body: 'Building team capability, defining process, and leading design at director level across product and engineering teams.' },            ].map(({ n, title, body }) => (
               <div key={n} className="serviceCard">
                 <p className="serviceCardNumber">{n}</p>
                 <h3 className="serviceCardTitle">{title}</h3>

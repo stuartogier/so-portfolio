@@ -8,49 +8,49 @@
 
 :root {
   /* ── Colour palette ──────────────────────────────────────── */
-  --colour-bg:              #000000;
-  --colour-surface:         #111111;
-  --colour-surface-hover:   #1a1a1a;
-  --colour-border:          #222222;
-  --colour-border-light:    #333333;
+  --colour-bg:              #ffffff;
+  --colour-surface:         #f9f9f9;
+  --colour-surface-hover:   #f5f5f5;
+  --colour-border:          #e0e0e0;
+  --colour-border-light:    #cccccc;
 
-  --colour-text:            #ffffff;
-  --colour-text-muted:      #999999;
-  --colour-text-inverse:    #000000;
+  --colour-text:            #000000;
+  --colour-text-muted:      #555555;
+  --colour-text-inverse:    #ffffff;
 
-  --colour-accent:          #ffffff;
-  --colour-accent-hover:    #dddddd;
+  --colour-accent:          #000000;
+  --colour-accent-hover:    #333333;
 
-  --colour-banner-bg:       #111111;
-  --colour-banner-text:     #ffffff;
+  --colour-banner-bg:       #f5f5f5;
+  --colour-banner-text:     #000000;
 
-  --colour-nav-bg:          #000000;
-  --colour-nav-text:        #ffffff;
-  --colour-nav-text-active: #ffffff;
-  --colour-nav-border:      #222222;
+  --colour-nav-bg:          #ffffff;
+  --colour-nav-text:        #000000;
+  --colour-nav-text-active: #000000;
+  --colour-nav-border:      #e0e0e0;
 
-  --colour-footer-bg:       #000000;
-  --colour-footer-text:     #666666;
-  --colour-footer-border:   #222222;
+  --colour-footer-bg:       #ffffff;
+  --colour-footer-text:     #555555;
+  --colour-footer-border:   #e0e0e0;
 
-  --colour-input-bg:        #111111;
-  --colour-input-border:    #333333;
-  --colour-input-focus:     #ffffff;
+  --colour-input-bg:        #f5f5f5;
+  --colour-input-border:    #cccccc;
+  --colour-input-focus:     #000000;
   --colour-error:           #d4351c;
 
-  --colour-tag-bg:          #1a1a1a;
-  --colour-tag-text:        #999999;
+  --colour-tag-bg:          #ebebeb;
+  --colour-tag-text:        #555555;
 
   /* ── Typography ──────────────────────────────────────────── */
-  --font-family-body:    'Inter', system-ui, -apple-system, sans-serif;
-  --font-family-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-body:    var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-family-heading: var(--font-inter), system-ui, -apple-system, sans-serif;
   --font-family-mono:    'JetBrains Mono', 'Courier New', monospace;
 
-  --text-xs:   0.6875rem;
-  --text-sm:   0.75rem;
-  --text-base: 0.875rem;
-  --text-md:   1rem;
-  --text-lg:   1.125rem;
+  --text-xs:   0.75rem;
+  --text-sm:   0.85rem;
+  --text-base: 0.95rem;
+  --text-md:   1.1rem;
+  --text-lg:   1.25rem;
   --text-xl:   1.25rem;
   --text-2xl:  1.5rem;
   --text-3xl:  2rem;
@@ -135,7 +135,7 @@
   --input-min-height: 3rem;
 
   /* ── Testimonials ────────────────────────────────────────── */
-  --testimonial-border-color: #333333;
+  --testimonial-border-color: #e0e0e0;
   --testimonial-gap:          var(--space-8);
 
   /* ── Tags ────────────────────────────────────────────────── */

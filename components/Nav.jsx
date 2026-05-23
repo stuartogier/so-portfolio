@@ -7,9 +7,7 @@ import { usePathname } from 'next/navigation';
 const LINKS = [
   { href: '/',              label: 'Home' },
   { href: '/about',         label: 'About' },
-  { href: '/services',      label: 'Services' },
   { href: '/work',          label: 'Work' },
-  { href: '/testimonials',  label: 'Testimonials' },
   { href: '/contact',       label: 'Contact' },
 ];
 
@@ -27,7 +25,7 @@ export default function Nav() {
       <header className="nav" role="navigation" aria-label="Primary navigation">
         <div className="navInner">
           <Link href="/" className="navLogo">
-            YOUR NAME {/* ← replace with your name */}
+            Stuart Ogier {/* ← replace with Stuart Ogier */}
           </Link>
 
           {/* Desktop links */}

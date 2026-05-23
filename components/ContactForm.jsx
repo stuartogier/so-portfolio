@@ -26,31 +26,23 @@ export default function ContactForm() {
 
     setSending(true);
 
-    /*
-     * ─────────────────────────────────────────────────────────
-     *  SWAP THIS BLOCK for your real submission logic:
-     *
-     *  Option A — Formspree
-     *    const res = await fetch('https://formspree.io/f/YOUR_ID', {
-     *      method: 'POST',
-     *      headers: { 'Content-Type': 'application/json' },
-     *      body: JSON.stringify(fields),
-     *    });
-     *    if (res.ok) setSent(true);
-     *
-     *  Option B — your own Next.js API route at app/api/contact/route.js
-     *    const res = await fetch('/api/contact', {
-     *      method: 'POST',
-     *      headers: { 'Content-Type': 'application/json' },
-     *      body: JSON.stringify(fields),
-     *    });
-     *    if (res.ok) setSent(true);
-     * ─────────────────────────────────────────────────────────
-     */
-    await new Promise(r => setTimeout(r, 800)); // demo delay
-    setSent(true);
-    setSending(false);
-  }
+const res = await fetch('https://formspree.io/f/xdajdnqq', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({
+    name: fields.name,
+    email: fields.email,
+    jobtitle: fields.jobtitle,
+    message: fields.message,
+  }),
+});
+
+if (res.ok) {
+  setSent(true);
+} else {
+  alert('Something went wrong, please try emailing me directly at stuartogier@gmail.com');
+}
+setSending(false);  }
 
   function field(id) {
     return {
