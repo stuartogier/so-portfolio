@@ -86,12 +86,6 @@ setSending(false);  }
         {errors.email && <span className="formError visible" role="alert">{errors.email}</span>}
       </div>
 
-      {/* Job title */}
-      <div className="formGroup">
-        <label className="formLabel formLabelOptional" htmlFor="jobtitle">Job title</label>
-        <input {...field('jobtitle')} className="formInput" type="text" autoComplete="organization-title" />
-      </div>
-
       {/* Message */}
       <div className={`formGroup${errors.message ? ' formGroupError' : ''}`}>
         <label className="formLabel" htmlFor="message">Message</label>

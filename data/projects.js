@@ -57,9 +57,9 @@ export const projects = [
     subtitle: 'Alpha project exploring digital solutions for Heat Networks.',
     services: ['Government Department', 'UX design'],
     tags: ['Government', 'UX'],
-    heroImage: '/images/DESNZ.jpg',
+    heroImage: '/images/heatnetwork.webp',
     heroImageAlt: 'DESNZ Heat Networks project',
-    body: `I led the interaction design for an Alpha project with the Department for Energy Security & Net Zero (DESNZ), investigating how digital solutions could support the growth and efficiency of Heat Networks. Working closely with a multidisciplinary team, we built on prior Discovery findings to prototype and test digital tools aimed at improving data transparency, user accessibility, and operational efficiency.\n\nThrough in-depth user research with key stakeholders — including local authorities, energy providers, and consumers — we identified key challenges in heat network adoption, data standardisation, and regulatory compliance.`,
+    body: `I led the interaction design for an Alpha project with the Department for Energy Security & Net Zero (DESNZ), investigating how digital solutions could support the growth and efficiency of Heat Networks. Working closely with a multidisciplinary team, we built on prior Discovery findings to prototype and test digital tools aimed at improving data transparency, user accessibility, and operational efficiency.\n\nThrough in-depth user research with key stakeholders — including local authorities, energy providers, and consumers — we identified key challenges in heat network adoption, data standardisation, and regulatory compliance. The Alpha phase focused on designing and iterating prototypes to validate the feasibility of a digital service that could enhance monitoring, increase adoption, and support decarbonisation goals.`,
     sections: [
       {
         title: 'Compliance checker & onboarding',
@@ -71,7 +71,7 @@ export const projects = [
       },
       {
         title: 'Statement of Applicability flow',
-        body: `I designed and built the feasibility flow for the Statement of Applicability, a crucial step in registering a Heat Network. This flow helped users determine whether they needed to comply with regulations and guided them through the early stages of the registration process.\n\nAfter submission, the Statement of Applicability was assessed by regulators, with feedback provided for any required adjustments.`,
+        body: 'I also designed and built the feasibility flow for the Statement of Applicability, a crucial step in registering a Heat Network. This flow helped users determine whether they needed to comply with regulations and guided them through the early stages of the registration process with clarity and confidence. A key challenge was ensuring that users could quickly assess feasibility and understand their next steps. By refining content, interactions, and accessibility, we created a seamless experience that provided regulatory clarity.\n\nAfter submission, the Statement of Applicability was assessed by regulators, with feedback provided for any required adjustments. I designed the flow to ensure clarity on requirements, guiding users through necessary corrections with minimal friction. Through prototyping, testing, and iteration, I refined the process to streamline compliance, reduce back-and-forth, and help users efficiently meet regulatory standards.',
         images: [
           { url: '/images/desnz-soa.webp', alt: 'DESNZ Statement of Applicability' },
           { url: '/images/desnz-assess.webp', alt: 'DESNZ assessment flow' },
@@ -91,7 +91,7 @@ export const projects = [
     sections: [
       {
         title: 'Public Programs',
-        body: `For the Public Programs websites — The Art Gallery, The Institute, and The Arts Center — I developed a cohesive yet flexible visual identity for each centre that unified the platforms while preserving each initiative's unique character.`,
+        body: `For the Public Programs websites: The Art Gallery, The Institute, and The Arts Center, I developed a cohesive yet flexible visual identity for each centre that unified the platforms while preserving each initiative's unique character.`,
         images: [
           { url: '/images/nyu1.webp', alt: 'NYU Abu Dhabi Public Programs website' },
           { url: '/images/nyu2.webp', alt: 'NYU Abu Dhabi Arts Center website' },
@@ -127,38 +127,37 @@ export const projects = [
     sections: [
       {
         title: 'Schools financial benchmarking',
-        body: `I worked on Schools Financial Benchmarking as the project's user researcher and UX designer. I conducted over 200 concept tests, usability tests and focus groups to help redesign the site as well as launch new tools and features for the service.\n\nLive at schools-financial-benchmarking.service.gov.uk`,
+        body: `I worked on Schools Financial Benchmarking as the project's user researcher and UX designer. I conducted over 200 concept tests, usability tests and focus groups to help redesign the site as well as launch new tools and features for the service.`,
         images: [
-          { url: '/images/per1.webp', alt: 'Schools benchmarking user research' },
-          { url: '/images/per2.webp', alt: 'Schools benchmarking personas' },
-          { url: '/images/ia-1.webp', alt: 'Schools benchmarking sitemap' },
-          { url: '/images/userflow-1.webp', alt: 'Schools benchmarking user flow' },
-          { url: '/images/wireframes-1.webp', alt: 'Schools benchmarking wireframes' },
+          { url: '/images/dfe1.webp', alt: 'Schools benchmarking user research' },
+          { url: '/images/dfe2.webp', alt: 'Schools benchmarking personas' },
+          { url: '/images/dfe3.webp', alt: 'Schools benchmarking wireframes' },
         ],
       },
       {
         title: 'Get information about schools',
-        body: `On Get Information About Schools I was the service's UX designer, leading the redesign of the site to meet GDS standards as well as adding new tools and features.\n\nLive at get-information-schools.service.gov.uk`,
+        body: `On Get Information About Schools I was the service's UX designer, leading the redesign of the site to meet GDS standards as well as adding new tools and features.`,
         images: [
-          { url: '/images/userflows.webp', alt: 'Get information about schools user flows' },
-          { url: '/images/wireframes-2.webp', alt: 'Get information about schools wireframes' },
+          { url: '/images/dfe4.webp', alt: 'Get information about schools user flows' },
+          { url: '/images/dfe5.webp', alt: 'Get information about schools wireframes' },
         ],
       },
       {
         title: 'DfE Sign-in',
-        body: `DfE Sign-in was a unified sign-in service to replace 40 disparate DfE service logins. The issues around this were that each service had different security needs, leading to extensive research and onboarding flows.\n\nLive at services.signin.education.gov.uk`,
+        body: `DfE Sign-in was a unified sign-in service to replace 40 disparate DfE service logins. The issues around this were that each service had different security needs, leading to extensive research and onboarding flows.`,
         images: [
-          { url: '/images/ia-2.webp', alt: 'DfE Sign-in sitemap' },
-          { url: '/images/Flow-1.webp', alt: 'DfE Sign-in user flows' },
-          { url: '/images/wireframes2.webp', alt: 'DfE Sign-in wireframes' },
+          { url: '/images/dfe6.webp', alt: 'DfE Sign-in sitemap' },
+          { url: '/images/dfe7.webp', alt: 'DfE Sign-in user flows' },
+          { url: '/images/dfe8.webp', alt: 'DfE Sign-in wireframes' },
         ],
       },
     ],
   },
+  
   {
     slug: 'department-of-health-and-social-care',
     title: 'Department of Health & Social Care',
-    subtitle: 'A three month discovery into the impact a Skills Passport would have on the nation\'s social care sector.',
+    subtitle: 'Discovery into the impact a Skills Passport would have on the nation\'s social care sector.',
     services: ['Government Department', 'User Research'],
     tags: ['Government', 'Research'],
     heroImage: '/images/DHSC_front.webp',
@@ -238,7 +237,7 @@ export const projects = [
         title: 'Final design & development',
         body: `The final design delivers a polished, intuitive experience optimised for engagement and usability. The redesign enhanced navigation clarity, user engagement, and conversion pathways, supporting Giacom's growth and brand positioning.`,
         images: [
-          { url: '/images/final-page.webp', alt: 'Giacom final design' },
+          { url: '/images/image-asset-4.webp', alt: 'Giacom final design' },
         ],
       },
     ],
@@ -249,7 +248,7 @@ export const projects = [
     subtitle: 'Full website redesign for both sites.',
     services: ['Government Department', 'UX Design', 'Visual Design'],
     tags: ['Government', 'UX', 'UI'],
-    heroImage: '/images/gchq.jpeg',
+    heroImage: '/images/START-1.webp',
     heroImageAlt: 'GCHQ and NCSC website redesign',
     body: `GCHQ and NCSC are sister organisations that both wished to redesign their existing sites. It was decided to use NCSC as the main focus in the design process as their site was more complex and would create the greater challenge.\n\nWe started by redesigning the user flows of the site based on task analysis of current users and then built out a new set of site maps and wireframes. Lastly a new visual identity that could be used for both sites was created.`,
     sections: [
@@ -265,7 +264,7 @@ export const projects = [
         title: 'Wireframes',
         body: `Later stage wireframes were tested for visibility of key messages and general usability, iterating through multiple rounds to ensure clarity across both organisations' distinct content needs.`,
         images: [
-          { url: '/images/wireframe.webp', alt: 'GCHQ NCSC wireframes' },
+          { url: '/images/wireframes-1.webp', alt: 'GCHQ NCSC wireframes' },
         ],
       },
       {
@@ -292,7 +291,7 @@ export const projects = [
     subtitle: 'New onboarding flow and site redesign.',
     services: ['UX Design', 'Visual Design'],
     tags: ['UX', 'UI'],
-    heroImage: '/images/START-1.webp',
+    heroImage: '/images/START-2.webp',
     heroImageAlt: 'Flagstone Investment Management redesign',
     body: `Flagstone Investment Management allows high worth individuals to invest a minimum of £250k in high-interest private bank accounts. They needed a new onboarding flow for these individuals that included Know My Customer (KYC) regulations as well as new visual design for the site.`,
     sections: [
@@ -308,9 +307,16 @@ export const projects = [
         title: 'Wireframes',
         body: `Multiple wireframes and flows were tested with existing and prospective customers as well as ensuring they met KYC regulations.`,
         images: [
-          { url: '/images/wires.webp', alt: 'Flagstone wireframes' },
+          { url: '/images/wireframes-2.webp', alt: 'Flagstone wireframes' },
         ],
       },
+      {
+        title: 'Early UI designs',
+        body: `Part of the brief was to redesign the site’s branding which we tested with usersPart of the brief was to redesign the site’s branding which we tested with users. We explored multiple visual directions that balanced the need for a trustworthy, high-end financial service with a modern, engaging digital experience.`,
+        images: [
+          { url: '/images/early-UIs.webp', alt: 'Flagstone early UI designs' },
+        ],
+      },      
       {
         title: 'Final interfaces & style guide',
         body: `The final design had a radically different onboarding flow as well as more visually clear screens throughout the site. A full style guide was handed over to the in-house developers.`,
@@ -335,14 +341,14 @@ export const projects = [
         title: 'Wireframes',
         body: `Wireframes were created throughout the design process to test flows with users. These low-fidelity representations allowed rapid iteration based on user feedback.`,
         images: [
-          { url: '/images/wire1.webp', alt: 'WCC wireframes' },
+          { url: '/images/wireframes2.webp', alt: 'WCC wireframes' },
         ],
       },
       {
         title: 'Early UI designs',
         body: `Substantial user tests were performed on the UIs for not only usability but visual identity. Testing ensured the new visual language resonated with the diverse range of citizens using council services.`,
         images: [
-          { url: '/images/early-UIs.webp', alt: 'WCC early UI designs' },
+          { url: '/images/UI-versions.webp', alt: 'WCC early UI designs' },
         ],
       },
       {
@@ -356,7 +362,7 @@ export const projects = [
         title: 'Final designs & style guide',
         body: `Final designs were produced for all template types and screens. A style guide was created covering typography, colour and interactions.`,
         images: [
-          { url: '/images/final-1.webp', alt: 'WCC final designs' },
+          { url: '/images/final.webp', alt: 'WCC final designs' },
           { url: '/images/styleguide-2.webp', alt: 'WCC style guide' },
         ],
       },
@@ -368,7 +374,7 @@ export const projects = [
     subtitle: 'Visual design',
     services: ['Visual design'],
     tags: ['UI'],
-    heroImage: '/images/START-2.webp',
+    heroImage: '/images/START-3.webp',
     heroImageAlt: 'Knight Frank sales dashboard',
     body: `Knight Frank is the UK's leading independent real estate consultancy and needed a better designed dashboard for their sales associates. After initial wireframes a set of visual designs were created which were tested with their sales associates leading to an adapted final design.`,
     sections: [
@@ -383,7 +389,7 @@ export const projects = [
         title: 'Initial & final designs',
         body: `Initial visual designs were developed and tested with sales associates before being iterated into the final dashboard design.`,
         images: [
-          { url: '/images/UI-versions.webp', alt: 'Knight Frank initial designs' },
+          { url: '/images/image-asset-5.webp', alt: 'Knight Frank initial designs' },
           { url: '/images/finalsmall.webp', alt: 'Knight Frank final design' },
         ],
       },
@@ -394,7 +400,7 @@ export const projects = [
     title: 'WonderBill',
     subtitle: 'Startup to provide automatic comparison and switching of energy suppliers.',
     services: ['UX Design', 'Visual design', 'User Research'],
-    tags: ['UX', 'UI', 'Resarch'],
+    tags: ['UX', 'UI', 'Research'],
     heroImage: '/images/iphone6_angle_gld_01.webp',
     heroImageAlt: 'WonderBill app design',
     body: `WonderBill is a company that was started at the end of an innovation project to discover innovative ways to help energy customers. After a series of workshops and interviews the decision was made to create a platform that would allow customers to have all their bills in one place and the system to learn about their usage to enable automatic switching.\n\nMy role was to facilitate the design process with my team. We were involved from early stage discovery phase, through proposition testing to design and development of the platform to Alpha and Beta launches.`,
@@ -418,16 +424,22 @@ export const projects = [
         title: 'IA & user flows',
         body: `The onboarding user flow and information architecture of the top level features were developed to ensure a coherent experience as the product grew.`,
         images: [
-          { url: '/images/userflow.webp', alt: 'WonderBill onboarding user flow' },
-          { url: '/images/what.webp', alt: 'WonderBill information architecture' },
+          { url: '/images/Screen+Shot+2017-02-01+at+11.51.10.webp', alt: 'WonderBill onboarding user flow' },
+          { url: '/images/Ops_Check-credentials_AS-IS.webp', alt: 'WonderBill information architecture' },
         ],
       },
+      {
+        title: 'Wireframes',
+        body: `Wireframes of adding suppliers though automated and manual interactions.`,
+        images: [
+          { url: '/images/wires2.webp', alt: 'WonderBill wireframes' },
+        ],
+      },      
       {
         title: 'Visual design',
         body: `Final visuals were produced for the beta launch, including the landing page design and adaptive wireframes for key flows.`,
         images: [
-          { url: '/images/finalUI.webp', alt: 'WonderBill final visual design' },
-          { url: '/images/final.webp', alt: 'WonderBill landing page' },
+          { url: '/images/screens.webp', alt: 'WonderBill final visual design' },
         ],
       },
     ],
@@ -438,7 +450,7 @@ export const projects = [
     subtitle: 'Online store and delivery fulfilment screens.',
     services: ['UX Design', 'Visual Design'],
     tags: ['UX', 'UI'],
-    heroImage: '/images/START-1.webp',
+    heroImage: '/images/START-4.webp',
     heroImageAlt: 'LEGO online store design',
     body: `LEGO had up to this point relied on third parties to fulfil their orders. We designed their first online store and delivery fulfilment flows and designs. In keeping with LEGO's brand all designs were vibrant with all wireframes and initial designs kept at a high visual standard throughout.`,
     sections: [
@@ -456,7 +468,7 @@ export const projects = [
           { url: '/images/lego-2.webp', alt: 'LEGO order tracking concept' },
           { url: '/images/lego-3.webp', alt: 'LEGO order tracking concept 2' },
           { url: '/images/lego-1.webp', alt: 'LEGO order tracking concept 3' },
-          { url: '/images/finalartwork.webp', alt: 'LEGO final designs' },
+          { url: '/images/final-1.webp', alt: 'LEGO final designs' },
         ],
       },
     ],
@@ -476,28 +488,27 @@ export const projects = [
         body: `Workshops and ideation sessions were held across five countries with stakeholders and clients. Social and technological trend posters helped the client explore alternative approaches to banking.`,
         images: [
           { url: '/images/workshops.webp', alt: 'BNP Paribas workshops' },
-          { url: '/images/client-play.webp', alt: 'BNP Paribas client playback sessions' },
-          { url: '/images/dp1.webp', alt: 'BNP Paribas trend posters' },
+          { url: '/images/what.webp', alt: 'BNP Paribas trend posters' },
         ],
       },
       {
         title: 'Personas & experience maps',
         body: `Personas and customer journeys were created for each of the five routes, mapping the full experience for each archetype across the five countries.`,
         images: [
-          { url: '/images/mortscreen.webp', alt: 'BNP Paribas mortgage persona' },
-          { url: '/images/privscreen.webp', alt: 'BNP Paribas private customer persona' },
+          { url: '/images/per1.webp', alt: 'BNP Paribas mortgage persona' },
+          { url: '/images/per2.webp', alt: 'BNP Paribas private customer persona' },
         ],
       },
       {
         title: 'Wireframes & prototypes',
         body: `Wireframes and interactive prototypes were produced for each journey. A video was also produced for the mortgage route to help sell the concept to internal BNP Paribas teams.`,
         images: [
-          { url: '/images/story1.webp', alt: 'BNP Paribas user story 1' },
-          { url: '/images/story2.webp', alt: 'BNP Paribas user story 2' },
-          { url: '/images/wire2.webp', alt: 'BNP Paribas wireframes - buy a house' },
-          { url: '/images/wire2-1.webp', alt: 'BNP Paribas wireframes - private customer' },
-          { url: '/images/corpscreen.webp', alt: 'BNP Paribas corporate customer prototype' },
-          { url: '/images/video.webp', alt: 'BNP Paribas mortgage video' },
+          { url: '/images/wire1.webp', alt: 'BNP Paribas wireframes - buy a house' },
+          { url: '/images/wire2.webp', alt: 'BNP Paribas wireframes - private customer' },
+          { url: '/images/iphone6_angle_gld_01.webp', alt: 'BNP Paribas iPhone prototype' },
+          { url: '/images/mortscreen.webp', alt: 'Mortgage screens' },
+                    { url: '/images/privscreen.webp', alt: 'Private banking screens' },
+
         ],
       },
     ],
@@ -508,7 +519,7 @@ export const projects = [
     subtitle: 'Four digital startup concepts developed for AXA\'s digital ventures team.',
     services: ['UX Design', 'Visual Design'],
     tags: ['UX', 'UI'],
-    heroImage: '/images/START-3.webp',
+    heroImage: '/images/wingphone.jpg',
     heroImageAlt: 'AXA digital startup concepts',
     body: `AXA wanted to develop new digital startups to leverage their network and core services. The four services here were developed in conjunction with their digital ventures team for them to spin up when the project finished.`,
     sections: [
@@ -516,28 +527,28 @@ export const projects = [
         title: 'Driven',
         body: `Driven allowed users to book fuss-free car repairs, services and MOTs with car pick-up and return.`,
         images: [
-          { url: '/images/screens-1.webp', alt: 'AXA Driven app' },
+          { url: '/images/AXA_screens_1.webp', alt: 'AXA Driven app' },
         ],
       },
       {
         title: 'Policy Angel',
         body: `Policy Angel used a few personal questions to help users build a suite of insurance policies tailored to their individual circumstances.`,
         images: [
-          { url: '/images/inter.webp', alt: 'AXA Policy Angel app' },
+          { url: '/images/AXA_screens_3.webp', alt: 'AXA Policy Angel app' },
         ],
       },
       {
         title: 'Spaced',
         body: `Spaced allows users to book driveways as well as commercial and private car parks to park their car.`,
         images: [
-          { url: '/images/Ops_Check-credentials_AS-IS.webp', alt: 'AXA Spaced app' },
+          { url: '/images/AXA_screens_2.webp', alt: 'AXA Spaced app' },
         ],
       },
       {
         title: 'Wingman',
         body: `Wingman is the ultimate redecoration and odd job booking tool — connecting users with trusted tradespeople for home improvement tasks.`,
         images: [
-          { url: '/images/video-1.webp', alt: 'AXA Wingman app' },
+          { url: '/images/AXA_screens_4.webp', alt: 'AXA Wingman app' },
         ],
       },
     ],
@@ -548,7 +559,7 @@ export const projects = [
     subtitle: 'Customer payments tracker.',
     services: ['UX Design', 'Visual Design'],
     tags: ['UX', 'UI'],
-    heroImage: '/images/START-4.webp',
+    heroImage: '/images/hsbc.jpeg',
     heroImageAlt: 'HSBC payments tracker dashboard',
     body: `A re-engineering of the existing customer journey for corporate tracking of payments. The previous system was spread across several departments and didn't allow for the tracing of payments that had left the HSBC ecosystem. The new system created an easy to understand dashboard that allowed the tracing of single payments or multiple payments, and receive reporting on all of them.`,
     sections: [
@@ -556,15 +567,15 @@ export const projects = [
         title: 'Sitemap',
         body: `A new sitemap was developed to consolidate what had been a fragmented, multi-department process into a single coherent service.`,
         images: [
-          { url: '/images/Screen+Shot+2017-01-25+at+13.13.48.webp', alt: 'HSBC sitemap' },
+          { url: '/images/hsbc2.webp', alt: 'HSBC sitemap' },
         ],
       },
       {
         title: 'Wireframes & final design',
         body: `Wireframes were developed and tested before being refined into final UI designs. The resulting dashboard provided clear visibility of all payment states with comprehensive reporting capabilities.`,
         images: [
-          { url: '/images/wires2.webp', alt: 'HSBC wireframes' },
-          { url: '/images/screens.webp', alt: 'HSBC final design' },
+          { url: '/images/hsbc3.webp', alt: 'HSBC wireframes' },
+          { url: '/images/hsbc4.webp', alt: 'HSBC final design' },
         ],
       },
     ],
@@ -592,16 +603,14 @@ export const projects = [
         images: [
           { url: '/images/interviews2.webp', alt: 'Fare Pilot proposition interviews' },
           { url: '/images/alpha.webp', alt: 'Fare Pilot alpha test' },
-          { url: '/images/Screen+Shot+2017-02-01+at+11.51.10.webp', alt: 'Fare Pilot post-alpha interviews' },
         ],
       },
       {
         title: 'Wireframes & visual design',
         body: `Early wireframes were created for proposition testing, followed by revised wireframes to validate the refined feature set. Visual designs for the beta launch incorporated second stage branding.`,
         images: [
-          { url: '/images/wireframes.webp', alt: 'Fare Pilot early wireframes' },
-          { url: '/images/wires.webp', alt: 'Fare Pilot revised wireframes' },
-          { url: '/images/finalUI.webp', alt: 'Fare Pilot visual design' },
+          { url: '/images/dp1.webp', alt: 'Fare Pilot early wireframes' },
+          { url: '/images/wherenext.webp', alt: 'Fare Pilot visual design' },
         ],
       },
     ],
@@ -612,7 +621,7 @@ export const projects = [
     subtitle: 'Brand creation for the British Paralympics Association.',
     services: ['Visual Design'],
     tags: ['Branding'],
-    heroImage: '/images/StuartOgier_Jan15_Portfolio19a.webp',
+    heroImage: '/images/StuartOgier_Jan15_Portfolio19b.webp',
     heroImageAlt: 'ParalympicsGB brand identity',
     body: `The British Paralympics Association rebranded Paralympics UK as the governing body for all paralympic athletes. The new identity is a strong and resolute lion with a mane that reflects the Olympic torch. The branding is used by the team at all major paralympic events and worn by the athletes.`,
     sections: [
@@ -621,8 +630,6 @@ export const projects = [
         body: `A completely new visual identity was created for the British Paralympics Association — a strong, resolute lion whose mane echoes the shape of the Olympic torch. The identity needed to project strength and pride while being versatile enough for use across team kit, signage, broadcast, and digital contexts.`,
         images: [
           { url: '/images/StuartOgier_Jan15_Portfolio19a.webp', alt: 'ParalympicsGB brand identity' },
-          { url: '/images/StuartOgier_Jan15_Portfolio19b.webp', alt: 'ParalympicsGB branding in use' },
-          { url: '/images/StuartOgier_Jan15_Portfolio19d.webp', alt: 'ParalympicsGB logo detail' },
           { url: '/images/StuartOgier_Jan15_Portfolio19c.webp', alt: 'ParalympicsGB brand applications' },
         ],
       },

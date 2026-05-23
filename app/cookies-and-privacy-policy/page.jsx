@@ -11,7 +11,7 @@ export default function CookiesAndPrivacyPolicyPage() {
       <div className="page-header">
         <div className="container">
           <h1>Cookies and privacy policy</h1>
-          <p>Last updated: May 2025</p>
+          <p>Last updated: May 2026</p>
         </div>
       </div>
 

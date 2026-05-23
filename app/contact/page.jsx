@@ -12,6 +12,7 @@ export default function ContactPage() {
       <div className="page-header">
         <div className="container">
           <h1>Contact</h1>
+          <p>Tell me about your project.</p>
         </div>
       </div>
 
@@ -32,7 +33,6 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <CtaStrip />
     </>
   );
 }

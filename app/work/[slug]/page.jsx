@@ -62,6 +62,8 @@ export default function ProjectPage({ params }) {
         </section>
       )}
 
+      
+
       {/* Sections */}
       <section className="section">
         <div className="container">

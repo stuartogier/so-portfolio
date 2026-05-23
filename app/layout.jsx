@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'sw
 
 export const metadata = {
   title: {
-    default:  'UX Designer - Stuart Ogier',
+    default:  'Stuart Ogier: UX Design, User Research & Visual Design',
     template: '%s - Stuart Ogier',
   },
   description: 'Digital perfectionist specialising in interaction design, UX research and frontend development.',

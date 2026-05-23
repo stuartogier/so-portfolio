@@ -12,6 +12,7 @@ export default function AboutPage() {
       <div className="page-header">
         <div className="container">
           <h1>About</h1>
+          <p>I design digital products that put people first.</p>
         </div>
       </div>
 
@@ -28,11 +29,7 @@ export default function AboutPage() {
                 className="profilePhoto"
               />
               <h2 className="profileName">Hi, I&apos;m Stuart Ogier</h2>
-              <p className="profileRole">UX Designer &amp; User Researcher</p>
-              <div className="profileContacts">
-                <a href="mailto:stuartogier@gmail.com">stuartogier@gmail.com</a>
-                <a href="https://www.linkedin.com/in/stuartogier">LinkedIn</a>
-              </div>
+              <p className="profileRole">UX Designer, Visual Designer &amp; User Researcher</p>
             </aside>
 
             <div className="aboutContent">
@@ -47,13 +44,12 @@ export default function AboutPage() {
 
               <h2>About me</h2>
               <p>
-                I specialise in creating engaging and immersive products that deliver value for both businesses and customers. My strategic skill set enables me to uncover the rationale behind projects, lead the design process, and develop team capabilities and culture. I excel at building out tools, processes, and methodologies to drive innovation while supporting company growth.
+                I specialise in creating engaging, immersive digital products that deliver real value for both businesses and the people who use them.
               </p>
-                            <p>
-
-My extensive management experience includes leading teams and working at the director level. I am highly adept at presenting to stakeholders across all levels and taking full ownership of projects to ensure timely delivery. My expertise spans ethnographic research, usability testing, and creating user flows, IA, UI design, and brand identities. I have spent the last 15 years collaborating within Agile environments alongside product and engineering teams.
-
-
+              <p>
+                My work spans the full design process, from ethnographic research and usability testing through to interaction design, information architecture, UI design and brand identity. I've spent my career collaborating closely with product and engineering teams within Agile environments, taking full ownership of projects and presenting to stakeholders at every level.
+              </p>              <p>
+                I'm equally comfortable leading a team or rolling my sleeves up and doing the work myself.
               </p>
             </div>
 
