@@ -59,23 +59,16 @@ I've helped governmental bodies, financial institutions and consumer brands buil
       {/* Services teaser */}
       <section className="servicesSection" aria-labelledby="services-heading">
         <div className="container">
-          <div className="section-header">
-            <h2 id="services-heading">What I can offer</h2>
-            <p className="section-intro">
-              I provide creative solutions centred on UX, ensuring everything I create is
-              engaging, intuitive, and tailored to your unique needs.
-            </p>
-          </div>
+          <h2 id="services-heading" className="servicesSectionTitle">What I can offer</h2>
 
 
           <div className="servicesGrid">
             {[
-{ n: '01', title: 'UX Design', body: 'Designing seamless, user-centric interfaces that make complex interactions feel simple and intuitive.' },
-{ n: '02', title: 'User Research', body: 'Uncovering what users actually need through interviews, usability testing, and ethnographic research, then turning those insights into design decisions.' },
-{ n: '03', title: 'Visual Design', body: 'Crafting cohesive visual identities, UI systems, and brand experiences that are both beautiful and functional.' },
-{ n: '04', title: 'Design Leadership', body: 'Building team capability, defining process, and leading design at director level across product and engineering teams.' },            ].map(({ n, title, body }) => (
-              <div key={n} className="serviceCard">
-                <p className="serviceCardNumber">{n}</p>
+{ title: 'UX Design', body: 'Designing seamless, user-centric interfaces that make complex interactions feel simple and intuitive.' },
+{ title: 'User Research', body: 'Uncovering what users actually need through interviews, usability testing, and ethnographic research, then turning those insights into design decisions.' },
+{ title: 'Visual Design', body: 'Crafting cohesive visual identities, UI systems, and brand experiences that are both beautiful and functional.' },
+{ title: 'Design Leadership', body: 'Building team capability, defining process, and leading design at director level across product and engineering teams.' },            ].map(({ title, body }) => (
+              <div key={title} className="serviceCard">
                 <h3 className="serviceCardTitle">{title}</h3>
                 <p className="serviceCardBody">{body}</p>
               </div>
