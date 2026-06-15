@@ -8,6 +8,7 @@ import './style.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter', display: 'swap' });
 
 export const metadata = {
+  metadataBase: new URL('https://www.stuartogier.com'),
   title: {
     default:  'Stuart Ogier: UX Design, User Research & Visual Design',
     template: '%s - Stuart Ogier',
