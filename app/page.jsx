@@ -47,9 +47,22 @@ I've helped governmental bodies, financial institutions and consumer brands buil
         <div className="container">
           <h2 className="clientsTitle">Partnering with exceptional clients</h2>
           <ul className="clientsLogoGrid">
-            {[1,2,3,4,5,6,7,8,9,10].map(n => (
-              <li key={n} className="clientsLogoBox">
-                <img src={`/images/logos/${n}.png`} alt="Client logo" className="clientsLogo" />
+            {[
+              '/work/department-for-education',
+              '/work/nyu-abu-dhabi',
+              '/work/department-for-energy-security-and-net-zero',
+              '/work/bnp-paribas',
+              '/work/department-of-health-and-social-care',
+              '/work/gchq-and-ncsc',
+              '/work/lego',
+              '/work/warwickshire-county-council',
+              '/work/giacom',
+              '/work/flagstone-investment-management',
+            ].map((href, index) => (
+              <li key={href} className="clientsLogoBox">
+                <Link href={href} className="clientsLogoLink" aria-label={`View related work for client ${index + 1}`}>
+                  <img src={`/images/logos/${index + 1}.png`} alt="Client logo" className="clientsLogo" />
+                </Link>
               </li>
             ))}
           </ul>

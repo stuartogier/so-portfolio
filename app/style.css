@@ -437,13 +437,22 @@ hr { border: none; border-top: var(--border-width) solid var(--colour-border); }
 }
 @media (max-width: 640px) { .clientsLogoGrid { grid-template-columns: repeat(2, 1fr); } }
 .clientsLogoBox {
-  background: var(--colour-surface);
-  border-radius: var(--radius-sm);
   aspect-ratio: 3 / 2;
+}
+.clientsLogoLink {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
   padding: var(--space-6);
+  background: var(--colour-surface);
+  border-radius: var(--radius-sm);
+  transition: background var(--transition-fast);
+}
+.clientsLogoLink:hover,
+.clientsLogoLink:focus-visible {
+  background: var(--colour-surface-hover);
 }
 .clientsLogo { width: 77%; max-height: 66px; object-fit: contain; }
 
