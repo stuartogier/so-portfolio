@@ -493,7 +493,6 @@ hr { border: none; border-top: var(--border-width) solid var(--colour-border); }
 
 .serviceCard {
   padding: var(--space-6) var(--space-6);
-  background: var(--colour-surface);
   border: var(--border-width) solid var(--colour-border);
   border-radius: var(--radius-sm);
   transition: background var(--transition-fast);

@@ -9,9 +9,9 @@
 :root {
   /* ── Colour palette ──────────────────────────────────────── */
   --colour-bg:              #ffffff;
-  --colour-surface:         #f9f9f9;
-  --colour-surface-hover:   #f5f5f5;
-  --colour-border:          #e0e0e0;
+  --colour-surface:         #f4f4f4;
+  --colour-surface-hover:   #d4d4d4;
+  --colour-border:          #d1d1d1;
   --colour-border-light:    #cccccc;
 
   --colour-text:            #000000;
